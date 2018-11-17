@@ -1,0 +1,14 @@
+  let d = new Date();
+	let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Jueves", "Friday", "Saturday"];
+	let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
+			      "Noviembre", "December"];
+
+	//Si quiero mostrar la información de la fecha en una sola línea:
+	document.getElementById("date1").innerHTML = "<h1> Today is: " + d.getDate() + " de " + months[d.getMonth()] + 
+	                                             " de " + d.getFullYear() + "</h1>";
+	                                             
+	// Utilizo algunos métodos para mostrar el mes, el año y la hora actual del sistema                                            	
+	document.getElementById("date2").innerHTML = "<h1> Current Month is: " + months[d.getMonth()] + "</h1>";	
+	document.getElementById("date3").innerHTML = "<h1> Current Year is: " + d.getFullYear() + "</h1>";	
+	document.getElementById("date4").innerHTML = "<h1> Current time: " + d.getHours() + ":" + d.getMinutes() + ":" 
+												  + d.getSeconds() + "</h1>";	
