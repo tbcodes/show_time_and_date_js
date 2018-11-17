@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- Creamos las distintas secciones de nuestra aplicación -->
+<section id="date1"></section>
+<section id="date2"></section>
+<section id="date3"></section>
+<section id="date4"></section>
+
+<script type="text/javascript" src="date.js"></script>
+</body>
+
+</html>
